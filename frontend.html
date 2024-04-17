@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Fetcher</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Data Fetching Application</h1>
+    <form id="dataForm">
+        <label for="auditorEIN">Auditor EIN:</label>
+        <input type="text" id="auditorEIN" name="auditorEIN" placeholder="Enter Auditor EIN">
+
+        <label for="auditYear">Audit Year:</label>
+        <input type="text" id="auditYear" name="auditYear" placeholder="Enter Audit Year">
+
+        <button type="button" id="fetchData">Fetch Data</button>
+    </form>
+    <table id="resultsTable">
+        <thead>
+            <tr>
+                <th>Audit Year</th>
+                <th>Auditor EIN</th>
+                <th>Auditee Name</th>
+                <!-- Add other headers based on your data fields -->
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data rows will be inserted here -->
+        </tbody>
+    </table>
+    <script src="renderer.js"></script>
+</body>
+</html>

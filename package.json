@@ -1,0 +1,23 @@
+{
+  "name": "facapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikestraney/FAC-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikestraney/FAC-API/issues"
+  },
+  "homepage": "https://github.com/mikestraney/FAC-API#readme",
+  "devDependencies": {
+    "electron": "^30.0.0"
+  }
+}
